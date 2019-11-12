@@ -1,0 +1,11 @@
+INDEX VERSION 1.131
+C:\JSP_WS_2019\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1784629064.index
+\191111\src
+C:\JSP_WS_2019\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\499226040.index
+\191112\src
+C:\JSP_WS_2019\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1406213844.index
+\Hello\src
+C:\JSP_WS_2019\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2830615768.index
+\HelloWorld\src
+C:\JSP_WS_2019\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\24656309.index
+\select\src
