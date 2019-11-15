@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <publish-info>
-  <server id="Tomcat v9.0 Server at localhost" path="publish1.dat"/>
   <server id="Sub7" path="publish4.dat"/>
   <server id="Sub6" path="publish3.dat"/>
   <server id="Hello" path="publish2.dat"/>
+  <server id="Tomcat v9.0 Server at localhost" path="publish1.dat"/>
+  <server id="191115" path="publish8.dat"/>
+  <server id="191114" path="publish7.dat"/>
+  <server id="Sub9" path="publish6.dat"/>
+  <server id="Sub8" path="publish5.dat"/>
 </publish-info>
