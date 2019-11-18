@@ -4,8 +4,6 @@
 <fullyQualifiedTypeName name="com.mysql.jdbc.PreparedStatement"/>
 <fullyQualifiedTypeName name="java.sql.ResultSet"/>
 <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
-<fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
-<fullyQualifiedTypeName name="com.saeyan.dao.MemberDAO"/>
 <fullyQualifiedTypeName name="java.lang.Number"/>
 <fullyQualifiedTypeName name="java.sql.Connection"/>
 <fullyQualifiedTypeName name="javax.naming.Context"/>
@@ -14,5 +12,8 @@
 <fullyQualifiedTypeName name="com.dkfagh.dto.ItemVO"/>
 <fullyQualifiedTypeName name="com.dkfagh.dao.ItemDAO"/>
 <fullyQualifiedTypeName name="javax.security.auth.message.callback.PrivateKeyCallback.Request"/>
+<fullyQualifiedTypeName name="com.saeyan.dto.MemberVO"/>
+<fullyQualifiedTypeName name="com.saeyan.dao.MemberDAO"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
 <fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
 </qualifiedTypeNameHistroy>
