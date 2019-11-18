@@ -129,7 +129,7 @@ public class MemberDAO {
 			pstmt.setString(4, mVo.getEmail());
 			pstmt.setString(5, mVo.getPhone());
 			pstmt.setInt(6, mVo.getAdmin());
-			result = pstmt.executeUpdate();
+			result = pstmt.executeUpdate();  // 영향을 받은 행의 수 (insert가 성공하면 1)
 		} catch(Exception e) {
 			e.printStackTrace();
 		} finally {
@@ -149,7 +149,7 @@ public class MemberDAO {
 	
 	// 아이디 중복 체크
 	public int confirmID(String userid) {
-		int result = -1;
+		int result = -1;  // flag. ID가 존재하지 않으면 -1
 		String sql = "select userid from member2 where userid=?";
 		Connection conn = null;
 		PreparedStatement pstmt = null;
@@ -175,6 +175,39 @@ public class MemberDAO {
 					conn.close();
 				}
 			} catch(Exception e) {
+				e.printStackTrace();
+			}
+		}
+		return result;
+	}
+	
+	
+	// 회원 정보 수정
+	public int updateMember(MemberVO mVo) {
+		int result = -1;
+		String sql = "update member2 set pwd=?, email=?, phone=?, admin=? where userid=?";
+		Connection conn = null;
+		PreparedStatement pstmt = null;
+		try {
+			conn = getConnection();
+			pstmt = conn.prepareStatement(sql);
+			pstmt.setString(1, mVo.getPwd());
+			pstmt.setString(2, mVo.getEmail());
+			pstmt.setString(3, mVo.getPhone());
+			pstmt.setInt(4, mVo.getAdmin());
+			pstmt.setString(5, mVo.getUserid());
+			result = pstmt.executeUpdate();
+		} catch (Exception e) {
+			e.printStackTrace();
+		} finally {
+			try {
+				if (pstmt != null) {
+					pstmt.close();
+				}
+				if (conn != null) {
+					conn.close();
+				}
+			} catch (Exception e) {
 				e.printStackTrace();
 			}
 		}
