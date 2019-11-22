@@ -24,7 +24,12 @@
 <body>
 <table width='800' border='1'>
 	<tr>
-		<th>이름</th><th>아이디</th><th>비밀번호</th><th>이메일</th><th>전화번호</th><th>권한(1:관리자, 0:일반회원)</th>
+		<th>이름</th>
+		<th>아이디</th>
+		<th>비밀번호</th>
+		<th>이메일</th>
+		<th>전화번호</th>
+		<th>권한(1:관리자, 0:일반회원)</th>
 	</tr>
 <%
 	try {

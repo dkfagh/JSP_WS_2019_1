@@ -8,7 +8,6 @@ import javax.naming.InitialContext;
 import javax.sql.DataSource;
 
 import com.dkfagh.dto.ItemVO;
-import com.dkfagh.dto.ItemVO;
 
 public class ItemDAO {
 	private ItemDAO() {
@@ -39,7 +38,7 @@ public class ItemDAO {
 			conn = getConnection();
 			pstmt = conn.prepareStatement(sql);
 			pstmt.setString(1, mVo.getName());
-			pstmt.setString(2, mVo.getPrice());
+			pstmt.setInt(2, mVo.getPrice());
 			pstmt.setString(3, mVo.getDescription());
 			result = pstmt.executeUpdate();
 		} catch(Exception e) {

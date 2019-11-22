@@ -27,13 +27,13 @@
 			</td>
 		</tr>
 		<tr>
-			<td>암호 (*)</td>
+			<td>비밀번호 (*)</td>
 			<td>
 				<input type="password" name="pwd" size="20">
 			</td>
 		</tr>
 		<tr height="30">
-			<td width="100">암호 확인 (*)</td>
+			<td width="130">비밀번호 확인 (*)</td>
 			<td>
 				<input type="password" name="pwd_check" size="20">
 			</td>

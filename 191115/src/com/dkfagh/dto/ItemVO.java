@@ -2,7 +2,7 @@ package com.dkfagh.dto;
 
 public class ItemVO {
 	private String name;
-	private Number price;
+	private Integer price;
 	private String description;
 	public String getName() {
 		return name;
@@ -10,10 +10,10 @@ public class ItemVO {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public Number getPrice() {
+	public Integer getPrice() {
 		return price;
 	}
-	public void setPrice(Number price) {
+	public void setPrice(Integer price) {
 		this.price = price;
 	}
 	public String getDescription() {
@@ -22,4 +22,5 @@ public class ItemVO {
 	public void setDescription(String description) {
 		this.description = description;
 	}
+	
 }

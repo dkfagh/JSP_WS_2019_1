@@ -65,3 +65,15 @@ function joinCheck() {
 		return false;
 	}	
 }
+
+function logoutCheck() {
+	
+}
+
+function deleteCheck() {
+	if (document.frm.pwd.value != document.frm.pwd_check.value) {
+		alert("비밀번호가 일치하지 않습니다.");
+		frm.pwd.select();
+		return false;
+	}
+}
