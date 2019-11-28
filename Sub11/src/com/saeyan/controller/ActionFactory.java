@@ -45,6 +45,18 @@ public class ActionFactory {
 			action = new BoardUpdateAction();
 		} else if(command.equals("board_delete")) {
 			action = new BoardDeleteAction();
+		} else if(command.equals("reply_write")) {
+			action = new ReplyWriteAction();
+		} else if(command.equals("reply_check_pass_form")) {	
+			action = new ReplyCheckPassFormAction();
+		} else if(command.equals("reply_check_pass")) {
+			action = new ReplyCheckPassAction();
+		} else if(command.equals("reply_update_form")) {
+			action = new ReplyUpdateFormAction();
+		} else if(command.equals("reply_update")) {
+			action = new ReplyUpdateAction();
+		} else if(command.equals("reply_delete")) {
+			action = new ReplyDeleteAction();
 		}
 		return action;
 	}

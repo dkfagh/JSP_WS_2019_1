@@ -47,6 +47,8 @@
 		</tr>
 		</c:forEach>
 	</table>
+	<br><br>
+	<jsp:include page="paging.jsp"></jsp:include>
 </div>
 </body>
 </html>

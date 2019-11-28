@@ -7,23 +7,21 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import com.saeyan.dao.BoardDAO;
-import com.saeyan.dto.BoardVO;
+import com.saeyan.dto.ReplyVO;
 
-public class BoardUpdateAction implements Action {
+public class ReplyUpdateAction implements Action {
 
 	@Override
 	public void execute(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		BoardVO bVo = new BoardVO();
+		ReplyVO rVo = new ReplyVO();
 		
-		bVo.setNum(Integer.parseInt(request.getParameter("num")));
-		bVo.setPass(request.getParameter("pass"));
-		bVo.setName(request.getParameter("name"));
-		bVo.setEmail(request.getParameter("email"));
-		bVo.setTitle(request.getParameter("title"));
-		bVo.setContent(request.getParameter("content"));
+		rVo.setNo(Integer.parseInt(request.getParameter("no")));
+		rVo.setName(request.getParameter("name"));
+		rVo.setPassword(request.getParameter("password"));
+		rVo.setContent(request.getParameter("content"));
 		
 		BoardDAO bDao = BoardDAO.getInstance();
-		bDao.updateBoard(bVo);
+		bDao.updateReply(rVo);
 		
 		//new BoardListAction().execute(request, response);
 		response.sendRedirect("BoardListServlet");

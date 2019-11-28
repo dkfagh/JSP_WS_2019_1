@@ -46,5 +46,4 @@ public class BoardServlet extends HttpServlet {
 		request.setCharacterEncoding("UTF-8");
 		doGet(request, response);
 	}
-
 }
