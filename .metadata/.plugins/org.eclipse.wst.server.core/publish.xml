@@ -11,4 +11,5 @@
   <server id="191114" path="publish7.dat"/>
   <server id="Sub9" path="publish6.dat"/>
   <server id="Sub8" path="publish5.dat"/>
+  <server id="Android" path="publish12.dat"/>
 </publish-info>

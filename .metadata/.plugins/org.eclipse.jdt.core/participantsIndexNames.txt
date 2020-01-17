@@ -39,3 +39,5 @@ C:\JSP_WS_2019\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1278240745.
 \191120\src
 C:\JSP_WS_2019\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2491746222.index
 \Sub9\src
+C:\JSP_WS_2019\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2422452743.index
+\AndroidConn01\src

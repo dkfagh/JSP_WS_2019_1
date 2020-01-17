@@ -33,4 +33,7 @@
   <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/Sub11-config" deployDir="wtpwebapps" hostname="localhost" id="Sub11" name="Sub11" runtime-id="Apache Tomcat v9.0" server-type="org.eclipse.jst.server.tomcat.90" server-type-id="org.eclipse.jst.server.tomcat.90" start-timeout="45" stop-timeout="15" testEnvironment="true" timestamp="1">
     <list key="modules" value0="Sub11::org.eclipse.jst.jee.server:Sub11::jst.web::4.0"/>
   </server>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/Android-config" deployDir="wtpwebapps" hostname="localhost" id="Android" name="Android" runtime-id="Apache Tomcat v9.0" server-type="org.eclipse.jst.server.tomcat.90" server-type-id="org.eclipse.jst.server.tomcat.90" start-timeout="45" stop-timeout="15" testEnvironment="true" timestamp="1">
+    <list key="modules" value0="AndroidConn01::org.eclipse.jst.jee.server:AndroidConn01::jst.web::4.0"/>
+  </server>
 </servers>
